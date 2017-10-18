@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.darpa.municip.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/BtnNoti"
+        android:layout_width="379dp"
+        android:layout_height="77dp"
+        android:background="#FF8601"
+        android:drawableLeft="@drawable/notico"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="NOTIFICACION"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/BtnMensaje"
+        android:layout_width="379dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="231dp"
+        android:background="#FAD201"
+        android:drawableLeft="@drawable/mensaico"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="MENSAJE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/BtnGuia"
+        android:layout_width="379dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="77dp"
+        android:background="#FAD201"
+        android:drawableLeft="@drawable/guiaicon"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="GUIA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/BtnAgenda"
+        android:layout_width="379dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="154dp"
+        android:background="#FF8601"
+        android:drawableLeft="@drawable/infoico"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Agenda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="405dp"
+        android:layout_height="261dp"
+        android:scaleType="fitXY"
+        android:tag="1"
+
+        app:srcCompat="@drawable/fondouno"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+</android.support.constraint.ConstraintLayout>
